@@ -11,12 +11,6 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
             name: "Email",
             server: process.env.EMAIL_SERVER,
             from: process.env.EMAIL_FROM,
-            sendVerificationRequest({ identifier, url, provider }) {
-                console.log(`\n======================================================`);
-                console.log(`MAGIC LINK FOR ${identifier}:`);
-                console.log(`${url}`);
-                console.log(`======================================================\n`);
-            },
         }),
     ],
     callbacks: {
