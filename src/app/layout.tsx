@@ -35,7 +35,7 @@ export default async function RootLayout({
                 Testimonies
               </Link>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSddVbmTw2EqQVUsHFAGZR1lPOOcvGNhdSAXrXN03LZ0q6t34g/viewform?pli=1" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-slate-900 transition-colors">
-                Google Form
+                Encourage Xue
               </a>
               <Link href="/donate" className="text-slate-600 hover:text-slate-900 transition-colors">
                 Donate
