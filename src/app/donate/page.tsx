@@ -24,8 +24,8 @@ export default async function DonatePage() {
                         name it "xue.jpg", and change the src below to src="/xue.jpg"
                     */}
                     <img
-                        src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2670&auto=format&fit=crop"
-                        alt="Support Team"
+                        src="https://d2g8igdw686xgo.cloudfront.net/98857009_1768320847923717_r.png"
+                        alt="Bring Xue Lor Home"
                         className="absolute inset-0 w-full h-full object-cover object-center"
                     />
                     {/* Gradient overlay to make text fade into image */}
