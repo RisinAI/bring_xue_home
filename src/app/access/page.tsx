@@ -12,7 +12,8 @@ export default function AccessPage() {
         // Check if it matches exactly "Xue1976"
         if (code === "Xue1976") {
             // Set a secure, HTTP-only cookie indicating they proved access
-            cookies().set("site_access", "true", {
+            const cookieStore = await cookies()
+            cookieStore.set("site_access", "true", {
                 httpOnly: true,
                 secure: process.env.NODE_ENV === "production",
                 maxAge: 60 * 60 * 24 * 30 // 30 days
