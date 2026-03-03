@@ -97,8 +97,8 @@ export default async function DonatePage() {
 
             <section className="bg-slate-50 p-6 md:p-8 rounded-2xl border border-slate-200">
                 <h3 className="text-xl font-semibold text-slate-800 mb-3">Other Ways to Help</h3>
-                <ul className="list-disc list-inside text-slate-700 space-y-2">
-                    <li>Share the <a href="https://www.gofundme.com/f/bring-xue-lor-home" target="_blank" rel="noopener noreferrer" className="font-medium text-blue-600 hover:underline">GoFundMe campaign</a> on your social media.</li>
+                <ul className="list-disc list-inside text-slate-700 space-y-2 relative z-10">
+                    <li>Share the <a href="https://www.gofundme.com/f/bring-xue-lor-home" target="_blank" rel="noopener noreferrer" className="font-medium text-blue-600 hover:underline">GoFundMe campaign</a> with people you know who might know Xue.</li>
                     <li>Leave an encouraging public message on the <a href="/testimonies" className="font-medium text-blue-600 hover:underline">Testimonies</a> page or via the <a href="https://docs.google.com/forms/d/e/1FAIpQLSddVbmTw2EqQVUsHFAGZR1lPOOcvGNhdSAXrXN03LZ0q6t34g/viewform?pli=1" target="_blank" rel="noopener noreferrer" className="font-medium text-blue-600 hover:underline">Google Form</a>.</li>
                     <li>Contact the coordinator at <a href="mailto:bringxuehome@gmail.com" className="font-medium text-blue-600 hover:underline">bringxuehome@gmail.com</a>.</li>
                     <li>Keep the family in your thoughts and prayers.</li>
