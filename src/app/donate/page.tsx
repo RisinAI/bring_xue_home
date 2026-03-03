@@ -11,9 +11,32 @@ export default async function DonatePage() {
                     <h1 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight mb-4 leading-tight">
                         Support the Legal Fund
                     </h1>
-                    <p className="text-lg text-slate-300 max-w-xl leading-relaxed">
+                    <p className="text-lg text-slate-300 max-w-xl leading-relaxed mb-8">
                         Your contributions make a tremendous difference in ensuring our friend has the resources they need to navigate this situation. Thank you for standing with us.
                     </p>
+
+                    {/* Progress Bar Element */}
+                    <div className="bg-slate-800/80 p-6 rounded-2xl border border-slate-700 backdrop-blur-sm text-left shadow-lg">
+                        <div className="flex justify-between items-end mb-3">
+                            <div>
+                                <p className="text-slate-400 text-sm font-medium mb-1 uppercase tracking-wider text-xs">Amount Raised</p>
+                                <p className="text-3xl font-extrabold text-white tracking-tight">$5,645<span className="text-xl text-slate-400">.28</span></p>
+                            </div>
+                            <div className="text-right">
+                                <p className="text-slate-400 text-sm font-medium mb-1 uppercase tracking-wider text-xs">Goal</p>
+                                <p className="text-xl font-semibold text-slate-300 tracking-tight">$40,000</p>
+                            </div>
+                        </div>
+                        <div className="w-full bg-slate-700 rounded-full h-3 md:h-4 mb-2 overflow-hidden shadow-inner">
+                            <div
+                                className="bg-gradient-to-r from-emerald-500 to-emerald-400 h-full rounded-full transition-all duration-1000 ease-out relative"
+                                style={{ width: '14.11%' }}
+                            >
+                                <div className="absolute top-0 right-0 bottom-0 w-8 bg-white/20 -skew-x-12 translate-x-4"></div>
+                            </div>
+                        </div>
+                        <p className="text-right text-emerald-400 text-sm font-semibold">14% Funded</p>
+                    </div>
                 </div>
 
                 {/* Image Content */}
