@@ -5,13 +5,32 @@ export default async function DonatePage() {
 
     return (
         <div className="space-y-10">
-            <section className="text-center py-10 px-4 bg-gradient-to-b from-green-50 to-white rounded-2xl shadow-sm border border-green-100">
-                <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-                    Support the Legal Fund
-                </h1>
-                <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-                    Your contributions make a tremendous difference in ensuring our friend has the resources they need to navigate this situation.
-                </p>
+            <section className="relative overflow-hidden bg-slate-900 rounded-3xl shadow-xl flex flex-col md:flex-row items-center mb-10">
+                {/* Text Content */}
+                <div className="relative z-10 w-full md:w-1/2 p-8 md:p-12 text-center md:text-left">
+                    <h1 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight mb-4 leading-tight">
+                        Support the Legal Fund
+                    </h1>
+                    <p className="text-lg text-slate-300 max-w-xl leading-relaxed">
+                        Your contributions make a tremendous difference in ensuring our friend has the resources they need to navigate this situation. Thank you for standing with us.
+                    </p>
+                </div>
+
+                {/* Image Content */}
+                <div className="w-full md:w-1/2 h-64 md:h-full min-h-[300px] relative">
+                    {/* 
+                        Replace the src="" URL below with your actual photo! 
+                        If it's on your computer, you can drag the photo into the support-site/public folder,
+                        name it "xue.jpg", and change the src below to src="/xue.jpg"
+                    */}
+                    <img
+                        src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2670&auto=format&fit=crop"
+                        alt="Support Team"
+                        className="absolute inset-0 w-full h-full object-cover object-center"
+                    />
+                    {/* Gradient overlay to make text fade into image */}
+                    <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-slate-900 via-slate-900/40 to-transparent"></div>
+                </div>
             </section>
 
             <section className="grid gap-6 md:grid-cols-2">
